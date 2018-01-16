@@ -13,6 +13,10 @@
 #			
 #			-The second loop in this script removes PROVISIONED apps as well; to use, uncomment the section by removing the <# in the front, and #> at the end.
 #
+#			-WDS ADMINISTRATORS:	Do _not_ run this script prior to capturing the image! WDS determines the entire Windows
+#						installation as invalid without all of the Apps listed in this script, and will not
+#						capture the image.
+#
 #############
 
 
