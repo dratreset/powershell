@@ -58,7 +58,8 @@ $bloatWare = @(`
 "*xbox*", `
 "*zune*", `
 "*zunemusic*", `
-"*zunevideo*")
+"*zunevideo*"`
+)
 
 for ($i=0; $i -lt $bloatware.length; $i++) {
 	Get-AppxPackage -name $bloatware[$i] | Remove-AppxPackage
